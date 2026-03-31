@@ -4,12 +4,9 @@
 A Simple Maze game, where the user can tilt the ball around the screen, avoiding the obstacles in center of the screen.
 
 
-# 2. Screenshot and Video of the Running App
+# 2. Screenshot of the Running App
 
 <img width="400" height="750" alt="Screenshot_20260331_180103" src="https://github.com/user-attachments/assets/64e7e717-0e87-420f-9606-342accb5cdf6" />
-
-
-
 
 
 
