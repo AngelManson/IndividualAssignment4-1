@@ -105,14 +105,14 @@ fun GameScreen(ballX: Float, ballY: Float) {
 //            newBallX -= ballX * 30f
 //            newBallY += ballY * 40f
 
-            val clampedX = max(20f, min((newBallX - ballX * 15f), canvasWidth - 20f))
-            val clampedY = max(20f, min((newBallY + ballY * 15f), canvasHeight - 20f))
+            val clampedX = max(20f, min((newBallX - ballX * 10f), canvasWidth - 20f))
+            val clampedY = max(20f, min((newBallY + ballY * 10f), canvasHeight - 20f))
 
             val obstacles = listOf(
                 androidx.compose.ui.geometry.Rect(300f, 500f, 950f, 520f),
                 androidx.compose.ui.geometry.Rect(50f, 500f, 70f, 1350f),
                 androidx.compose.ui.geometry.Rect(950f, 500f, 970f, 1360f),
-                androidx.compose.ui.geometry.Rect(50f, 1350f, 600f, 1370f),
+                androidx.compose.ui.geometry.Rect(50f, 1350f, 660f, 1370f),
                 androidx.compose.ui.geometry.Rect(600f, 1150f, 950f, 1170f),
                 androidx.compose.ui.geometry.Rect(300f, 500f, 320f, 750f),
                 androidx.compose.ui.geometry.Rect(70f, 970f, 420f, 990f),
