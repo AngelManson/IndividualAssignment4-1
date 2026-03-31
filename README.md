@@ -8,7 +8,8 @@ A Simple Maze game, where the user can tilt the ball around the screen, avoiding
 
 <img width="400" height="750" alt="Screenshot_20260331_180103" src="https://github.com/user-attachments/assets/64e7e717-0e87-420f-9606-342accb5cdf6" />
 
-file:///Users/angelmanson/Desktop/Screen_recording_20260331_181123.webm
+<img width="1080" height="2400" alt="videoframe_25731" src="https://github.com/user-attachments/assets/2091ddb6-63d0-4890-944c-9cb31c4f3b29" />
+
 
 
 
