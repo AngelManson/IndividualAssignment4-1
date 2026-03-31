@@ -110,12 +110,12 @@ fun GameScreen(ballX: Float, ballY: Float) {
 
             val obstacles = listOf(
                 androidx.compose.ui.geometry.Rect(300f, 500f, 950f, 520f),
-                androidx.compose.ui.geometry.Rect(100f, 500f, 120f, 1350f),
+                androidx.compose.ui.geometry.Rect(50f, 500f, 70f, 1350f),
                 androidx.compose.ui.geometry.Rect(950f, 500f, 970f, 1360f),
-                androidx.compose.ui.geometry.Rect(100f, 1350f, 650f, 1370f),
+                androidx.compose.ui.geometry.Rect(50f, 1350f, 600f, 1370f),
                 androidx.compose.ui.geometry.Rect(600f, 1150f, 950f, 1170f),
                 androidx.compose.ui.geometry.Rect(300f, 500f, 320f, 750f),
-                androidx.compose.ui.geometry.Rect(120f, 970f, 470f, 990f),
+                androidx.compose.ui.geometry.Rect(70f, 970f, 420f, 990f),
                 androidx.compose.ui.geometry.Rect(300f, 750f, 650f, 770f)
             )
 
@@ -144,7 +144,7 @@ fun GameScreen(ballX: Float, ballY: Float) {
             )
             drawRect(
                 color = Color.Black,
-                topLeft = Offset(100f, 500f),
+                topLeft = Offset(50f, 500f),
                 size = androidx.compose.ui.geometry.Size(20f, 850f)
             )
             drawRect(
@@ -154,7 +154,7 @@ fun GameScreen(ballX: Float, ballY: Float) {
             )
             drawRect(
                 color = Color.Black,
-                topLeft = Offset(100f, 1350f),
+                topLeft = Offset(50f, 1350f),
                 size = androidx.compose.ui.geometry.Size(550f, 20f)
             )
 
@@ -171,7 +171,7 @@ fun GameScreen(ballX: Float, ballY: Float) {
             )
             drawRect(
                 color = Color.DarkGray,
-                topLeft = Offset(120f, 970f),
+                topLeft = Offset(70f, 970f),
                 size = androidx.compose.ui.geometry.Size(350f, 20f)
             )
             drawRect(
